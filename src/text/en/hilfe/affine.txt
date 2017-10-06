@@ -1,13 +1,13 @@
-Affine Chiffre
+Affine cipher
 
-Die Affine-Chiffre besitzt zwei Schlüssel, a und b.
-Beide sind jeweils ein Zeichen des Alphabets.
+The affine cipher has two keys, a and b.
+Both are a sign of the alphabet.
 
-a sollte coprim zur Länge des Alphabets sein.
-Ein zufälliger coprimer Schlüssel kann generiert werden.
-Alle Schlüssel sind coprim zu einem Alphabet, der eine Primzahl als Länge hat.
+a should be coprime to the length of the alphabet.
+A random coprimer key can be generated.
+All keys are coprime to an alphabet that has a prime number as its length.
 
-Zeichen, die nicht im Alphabet enthalten sind, werden nicht verschlüsselt.
+Characters that are not contained in the alphabet are not encrypted.
 
 
-Die Affine Chiffre ist eine monoalphabetische Substitution.
+The affine cipher is a monoalphabetic substitution.
