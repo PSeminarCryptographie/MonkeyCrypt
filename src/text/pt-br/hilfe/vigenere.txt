@@ -1,7 +1,7 @@
-﻿Vigenere-Chiffre
+﻿Vigenere cifra
 
-Der Schlüssel der Vignere-Chiffre ist eine Zeichenkette aus Zeichen des Alphabets.
+A chave da cifra do Vignere é uma seqüência de caracteres do alfabeto.
 
-Je länger der Schlüssel, desto sicherer ist auch die Verschlüsselung!
+Quanto maior a chave, mais segura é a criptografia!
 
-Zeichen, die nicht im Alphabet enthalten sind, werden nicht verschlüsselt.
+Os caracteres que não estão contidos no alfabeto não são criptografados.

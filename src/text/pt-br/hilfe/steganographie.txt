@@ -1,5 +1,5 @@
-Steganographie
+Esteganografia
 
-Steganographische Verfahren besitzen keinen Schlüssel.
+Os procedimentos esteganográficos não têm nenhuma chave.
 
-Bacon: Der Tarntext sollte fünfmal länger sein als die Eingabe.
+Bacon: o texto de camuflagem deve ser cinco vezes maior do que a entrada.

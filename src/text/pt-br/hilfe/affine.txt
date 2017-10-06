@@ -1,13 +1,13 @@
-Affine Chiffre
+Cifra Affine
 
-Die Affine-Chiffre besitzt zwei Schlüssel, a und b.
-Beide sind jeweils ein Zeichen des Alphabets.
+A cifra affine tem duas chaves, a e b.
+Ambos são um sinal do alfabeto.
 
-a sollte coprim zur Länge des Alphabets sein.
-Ein zufälliger coprimer Schlüssel kann generiert werden.
-Alle Schlüssel sind coprim zu einem Alphabet, der eine Primzahl als Länge hat.
+um deve ser coprim ao comprimento do alfabeto.
+Uma chave aleatória de coprimer pode ser gerada.
+Todas as chaves são coprim para um alfabeto que tem um número primo como seu comprimento.
 
-Zeichen, die nicht im Alphabet enthalten sind, werden nicht verschlüsselt.
+Os caracteres que não estão contidos no alfabeto não são criptografados.
 
 
-Die Affine Chiffre ist eine monoalphabetische Substitution.
+A cifra affine é uma substituição monoalphabetic.

@@ -1,3 +1,3 @@
-Spielsprachen
+Linguagens de jogo
 
-Spielsprachen besitzen keinen SChlüssel.
+Os idiomas não possuem uma chave.

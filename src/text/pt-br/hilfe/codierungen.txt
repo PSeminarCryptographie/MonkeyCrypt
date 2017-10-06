@@ -1,7 +1,7 @@
-Kodierungen
+Codificações
 
-Kodierungen besitzen keinen Schlüssel.
+As codificações não têm nenhuma chave.
 
-Zeichen, die nicht von einer Kodierung überführt werden können, werden nicht kodiert.
+Os caracteres que não podem ser convertidos por codificação não são codificados.
 
-Bei der ADFGX-Verschlüsselung muss eine Tabelle mit Zeichen gefüllt werden.
+Para criptografia ADFGX, uma tabela deve ser preenchida com caracteres.

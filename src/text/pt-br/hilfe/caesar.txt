@@ -1,8 +1,8 @@
-﻿Caesar Chiffre
+﻿Cifra César
 
-Der Schlüssel der Caesar-Verschlüsselung ist ein Zeichen des Alphabets.
+A chave da criptografia César é um sinal do alfabeto.
 
-Zeichen, die nicht im Alphabet enthalten sind, werden nicht verschlüsselt.
+Os caracteres que não estão contidos no alfabeto não são criptografados.
 
 
-Die Caesar Chiffre ist eine monoalphabetische Substitution.
+A cifra César é uma substituição monoalfabética.

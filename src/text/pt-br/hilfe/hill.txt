@@ -1,9 +1,9 @@
-Hill Chiffre
+Hill cipher
 
-Der Schlüssel der Hill Chiffre ist eine Matrix, die vollständig mit jeweils einem Zeichen des Alphabets gefüllt werden muss.
+A chave da cifra Hill é uma matriz, que deve ser completamente preenchida com um caractere do alfabeto.
 
-Beim Verschlüsseln wird eine Matrix aus dem Eingabe-Text erstellt. Es kann deswegen sein, dass die verschlüsselte Ausgabe einige Zeichen zusätzlich enthält. Um eine gelungene Entschlüsselung zu gewähren sollten diese zusätzlichen Zeichen nicht gelöscht werden.
+Quando você criptografa, uma matriz é criada a partir do texto de entrada. Pode ser que a saída criptografada também contenha alguns caracteres. Para garantir um decodificação bem-sucedida, esses caracteres adicionais não devem ser excluídos.
 
-Zeichen, die nicht im Alphabet enthalten sind, werden nicht verschlüsselt.
+Os caracteres que não estão contidos no alfabeto não são criptografados.
 
-Die Hill Chiffre ist eine polyalphabetische Substitution.
+A cifra Hill é uma substituição polialfabética.
