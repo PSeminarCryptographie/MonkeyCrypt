@@ -10,5 +10,7 @@ Ideas for MonkeyCrypt
 + add functions that make cracking codes easier
 + add a section with user defined cryptography functions
 
+
 **Other stuff**
 + translate it in other languages
++ Make encryption/decryption from one language to another language possible.
