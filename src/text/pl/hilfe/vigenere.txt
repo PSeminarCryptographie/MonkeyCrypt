@@ -1,0 +1,7 @@
+Szyfr Vigenere’a
+
+Kluczem szyfru Vigenere jest tekst sk³adaj¹cy siê z znaków alfabetu.
+
+Im d³u¿szy klucz tym lepsze kodowanie!
+
+Znaki które nie s¹ czêœci¹ alfabetu nie zostan¹ zakodowane.

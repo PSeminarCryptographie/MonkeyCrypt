@@ -1,0 +1,9 @@
+Szyfr Hilla
+
+Kluczem do szyfru Hilla jest tablica która musi zostaæ wype³niona znakami z alfabetu.
+
+Podczas kodowania tablica jest tworzona na podstawie tekstu wejœciowego. Mo¿e siê zda¿yæ, ¿e wynik zawiera dodatkowe znaki. Aby upewniæ siê, ¿e wynik jest prawid³owy te dodatkowe znaki nie powinny byæ usuwane.
+
+Znaki które nie nale¿¹ do alfabetu nei zostan¹ zakodowane.
+
+Szyfr hilla jest szyfrem polialfabetycznym podstawieniowym.
