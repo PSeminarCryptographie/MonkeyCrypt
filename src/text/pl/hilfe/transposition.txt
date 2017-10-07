@@ -1,15 +1,15 @@
 Transpozycja
 
-Klucze transpozycji s¹ ró¿ne:
+Klucze transpozycji sÄ… rÃ³Å¼ne:
 
-Klucz translokacji luk jest tekstem z³o¿onym z znaków alfabetu.
+Klucz translokacji luk jest tekstem zÅ‚oÅ¼onym z znakÃ³w alfabetu.
 
-Kluczem p³otkowym jest liczba naturalna.
+Kluczem pÅ‚otkowym jest liczba naturalna.
 
-Anagramy nie potrzbuj¹ klucza. Deszyfracja w tym przypadku jest niemo¿liwa.
+Anagramy nie potrzbujÄ… klucza. Deszyfracja w tym przypadku jest niemoÅ¼liwa.
 
-Szyfr dwukwadratowy ma dwa klucze. Oba s¹ tekstem z³o¿onym z znaków alfabetu.
+Szyfr dwukwadratowy ma dwa klucze. Oba sÄ… tekstem zÅ‚oÅ¼onym z znakÃ³w alfabetu.
 
-Kluczem transpozycji przez permutacje jest tablica która musi zostaæ wype³niona liczbami 1 oraz 0. Ka¿dy rz¹d i kolumna mo¿e mieæ tylko wartoœc 0.
+Kluczem transpozycji przez permutacje jest tablica ktÃ³ra musi zostaÄ‡ wypeÅ‚niona liczbami 1 oraz 0. KaÅ¼dy rzÄ…d i kolumna moÅ¼e mieÄ‡ tylko wartoÅ›c 0.
 
-Podszas kodowania tablica zostaje stworzona na podstawie tekstu jawnego. Mo¿e ona zawieraæ dodatkowe znaki. Aby upewniæ siê, ¿e deszyfracja zostanie zakoñczona pomyœlnie, te znaki nie mog¹ byæ usuniête.
+Podszas kodowania tablica zostaje stworzona na podstawie tekstu jawnego. MoÅ¼e ona zawieraÄ‡ dodatkowe znaki. Aby upewniÄ‡ siÄ™, Å¼e deszyfracja zostanie zakoÅ„czona pomyÅ›lnie, te znaki nie mogÄ… byÄ‡ usuniÄ™te.

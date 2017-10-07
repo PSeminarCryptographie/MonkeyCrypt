@@ -2,6 +2,6 @@ Kodowanie
 
 Kodowanie nie posiada klucza.
 
-Znaki, które nie mog¹ zostaæ skonwertowane przez kodowanie, nie zostan¹.
+Znaki, ktÃ³re nie mogÄ… zostaÄ‡ skonwertowane przez kodowanie, nie zostanÄ….
 
-Podczas kodowania ADFGX, tabela musi zostaæ wype³niona znakami.
+Podczas kodowania ADFGX, tabela musi zostaÄ‡ wypeÅ‚niona znakami.

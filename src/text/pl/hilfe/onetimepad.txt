@@ -1,11 +1,11 @@
 Szyfr z kluczem jednorazowym (one-time pad)
 
-Kluczem tego szyfru jest tekst stworzony na podstawie znaków z alfabetu.
+Kluczem tego szyfru jest tekst stworzony na podstawie znakÃ³w z alfabetu.
 
-Klucz powinien byæ tak d³ugi jak tekst jawny.
-Istnieje mo¿liwoœæ wygenerowania losowego klucza o takiej samej d³ugoœci co tekst jawny.
-Losowo wygenerowane klucze s¹ bezpieczniejsze.
+Klucz powinien byÄ‡ tak dÅ‚ugi jak tekst jawny.
+Istnieje moÅ¼liwoÅ›Ä‡ wygenerowania losowego klucza o takiej samej dÅ‚ugoÅ›ci co tekst jawny.
+Losowo wygenerowane klucze sÄ… bezpieczniejsze.
 
-Znaki które nie nale¿¹ do alfabetu nie zostan¹ zaszyfrowane.
+Znaki ktÃ³re nie naleÅ¼Ä… do alfabetu nie zostanÄ… zaszyfrowane.
 
 Szyfr z kluczem jednorazowym jest szyfrem polialfabetycznym.
