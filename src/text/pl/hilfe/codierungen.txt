@@ -1,7 +1,7 @@
-Kodowanie.
+Kodowanie
 
 Kodowanie nie posiada klucza.
 
 Znaki, które nie mog¹ zostaæ skonwertowane przez kodowanie, nie zostan¹.
 
-Z kodowaniem ADFGX, tabela musi zostaæ wype³niona znakami.
+Podczas kodowania ADFGX, tabela musi zostaæ wype³niona znakami.

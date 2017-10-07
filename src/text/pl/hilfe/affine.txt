@@ -1,7 +1,7 @@
 Szyfr afiniczny
 
 Szyfr afiniczny posiada dwa klucze, a oraz b.
-Oba sa literami alfabetu.
+Oba s¹ literami alfabetu.
 
 Klucz a powinien byæ liczb¹ wzglêdnie pierwsz¹ do d³ugoœci alfabetu.
 Jest mo¿liwe wygenerowanie losowej liczby wzglêdnie pierwszej.

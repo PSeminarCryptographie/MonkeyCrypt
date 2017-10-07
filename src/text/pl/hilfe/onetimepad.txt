@@ -1,6 +1,6 @@
 Szyfr z kluczem jednorazowym (one-time pad)
 
-Kluczem tego szyfru jest tekst na podstawie znaków z alfabetu.
+Kluczem tego szyfru jest tekst stworzony na podstawie znaków z alfabetu.
 
 Klucz powinien byæ tak d³ugi jak tekst jawny.
 Istnieje mo¿liwoœæ wygenerowania losowego klucza o takiej samej d³ugoœci co tekst jawny.

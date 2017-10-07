@@ -1,4 +1,4 @@
-Szyfr Vigenere’a
+Szyfr Vigenere’a 
 
 Kluczem szyfru Vigenere jest tekst sk³adaj¹cy siê z znaków alfabetu.
 
