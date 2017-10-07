@@ -6,7 +6,7 @@ Like in mathematics, there are abbreviations and phrasing in cryptography that s
 {
 	Term			Explanation
 	Alphabet A		A finite set of characters (A = {a, b, c}).
-	|A|				The number of characters in A (|A| = 3).
+	|A|			The number of characters in A (|A| = 3).
 	Message M		A readable string of characters "over" A. This means that it only consists of characters in the alphabet.
 	Key K			A string.
 	Encoding E		A procedure that creates the secret text from M and K.
