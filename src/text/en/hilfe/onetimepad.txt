@@ -1,11 +1,12 @@
 One-Time Pad
 
-The key of the one-time pad is a string of characters from the alphabet.
+The key of the One-Time-Pad is a string consisting of characters of the alphabet.
 
-The key should be exactly as long as the input.
-A random key in exactly this length can be generated.
-Randomly generated keys are safer.
+The key should be as long as the input string.
+A random key of this exact length can be generated.
+Randomly generated keys are more secure.
 
-Characters that are not contained in the alphabet are not encrypted.
+Characters, which are not part of the alphabet, are not encrypted.
 
-The one-time pad is a polyalphabetic substitution.
+One-Time-Pad is a polyalphabetic cipher.
+
