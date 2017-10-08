@@ -6,8 +6,7 @@ Ideas for MonkeyCrypt
 + Less compact UI
 + Resizable/responsive GUI
 + Move to JavaFX for a richer UX
- 
-
++ Add a drag and move functionality instead of clicking on the arrows for rotating the wheel
 
 **Cryptography**
 + add the enigma as encryption / decryption
@@ -18,7 +17,7 @@ Ideas for MonkeyCrypt
 + add password strength measurement functionality to estimate time to crack
 
 **Other stuff**
-+ translate it in other languages
++ translate the program in other languages
 + add build instructions
 + Code examples in python
 + Set MonkeyCrypt icon as the app icon instead of the default java applet icon
