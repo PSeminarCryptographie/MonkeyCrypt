@@ -1,7 +1,7 @@
-Kodierung
+Coding
 
-Hi! Ich bin Alice, eine Expertin für Geheime Kommunikation. Meistens beschäftige ich mich mit der Kryptologie - der Lehre des Geheimhaltens. Das ist ganz schön nützlich und spaßig noch dazu! Doch genauso wichtig wie das Geheime ist die Kommunikation an sich. Deswegen sollte man als Kryptologe auch ein wenig über Kodierungen bescheid wissen.
+Hi! I am Alice, an expert in secret communication. Most of the time, I am concerned with cryptology - the doctrine of secrecy. This is quite useful and fun! But the communication itself is as important as the secret. Therefore one should know as a cryptologist also a little about codings.
 
-Wie kommuniziert ihr denn im alltäglichem Leben? Normalerweise tauschen Menschen Informationen mündlich aus, in ihrer jeweiligen Sprache. In unserem Fall ist das Deutsch. Alle Sprachen haben aber verschiedene Formen. Mündliche und schriftliche Formen kennt ihr. Man kann aber auch durh Computer miteinander kommunizieren. Früher hat man auch Lichtsignale zur Kommunikation verwendet. Das übersetzen von Nachrichten idiese Kommunikationsformen nennt man Kodieren.
+How do you communicate in everyday life? Normally, people exchange information verbally, in their respective language. In our case, this is German. All languages, however, have different forms. He knows oral and written forms. But you can also communicate with each other by computer. Earlier, light signals were also used for communication. The translating of messages these forms of communication is called coding.
 
-Zum Kodieren braucht man keine mathematische Funktion, sonder eher eine Art Wörterbuch. Diese Wörterbücher und noch weitere Informationen zu einzelnen Kodierungen findest du unter der Randspalte. Beispiele für Kodierungen sind die MORSE-CODIERUNG, die ASCII-KODIERUNG, die BINÄRE KODIERUNG oder die ALPHABET-INDEX-KODIERUNG.
+You do not need a mathematical function for encoding, but rather a kind of dictionary. These dictionaries and further information on individual encodings can be found under the margin column. Examples of encodings are MORSE CODING, ASCII CODING, BINARY CODING, or ALPHABET INDEX CODING.

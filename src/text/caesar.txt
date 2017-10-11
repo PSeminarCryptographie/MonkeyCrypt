@@ -1,28 +1,28 @@
-Ave! Ich bin Iulius Caesar, ein berühmter römischer Feldherr. Du hast sicher schon von mir gehört, immerhin habe ich ganz Gallien erobert - Na gut, mit der Ausnahme eines Dorfes, das nicht aufhört, mir Widerstand zu leisten, ich gebe es zu. Aber das ist auch unfair, sie haben einen geheimen Zaubertrank! Doch auch ich habe eine Geheimwaffe: Die nach mir benannte Caesar-Verschlüsselung. Damit schicke ich meinen Legionen geheime Nachrichten.
-Das funktioniert folgendermaßen:
+Ave! I am Iulius Caesar, a famous Roman landlord. You've certainly heard of me, after all, I conquered all of Gaul. Well, with the exception of a village that does not stop resisting me, I admit it. But that is also unfair, they have a secret magic potion! But I also have a secret weapon: The Caesar-Encryption named after me. So I send secret messages to my legions.
+This works as follows:
 
 A -> E
 B -> F
 ...
 Z -> D
-	
-Könnt ihr erraten, was folgender Geheimtext bedeutet?
-Geheimtext:	Hiv Jimrh peyivx mq Aeph
-Klartext:	Der Feind lauert im ____ [Wald]
 
-Super! Wie du siehst, wird bei der Caesar-Verschlüsselung immer ein Buchstabe mit genau einem anderen ersetzt. Deswegen wird dieses Verfahren als monoalphabetische Substitution bezeichnet. Man kann das Ersetzen veranschaulichen, indem man das normale Alphabet aufschreibt und darunter ein Geheimalphabet, das mit einem beliebigen Buchstaben anfängt und entsprechend fortgesetzt wird. Dieser erste Buchstabe ist dann der "Schlüssel" des Geheimtexts.
-Hier ein Beispiel mit dem Schlüssel D:
+Can you guess what the following secret text means?
+Secret: Hiv Jimrh peyivx mq Aeph
+Klartext: The enemy lurks in ____ [forest]
+
+Excellent! As you can see, the Caesar encryption always replaces one letter with exactly one other. Therefore, this method is referred to as monoalphabetic substitution. You can illustrate the substitution by writing the normal alphabet, and underneath it, a comma, beginning with any letter, and proceeding accordingly. This first letter is then the "key" of the secret.
+Here is an example with the key D:
 
 
 
-Das ist eine Caesar-Scheibe. Das Klartextalphabet ist außen (Großbuchstaben), das Geheimtextalphabet innen. Den Schlüssel siehst du immer unterhalb des Klartextes "A". Drehst du an der inneren Scheibe, so verändert sich der Schlüssel.
+This is a Caesar disc. The plaintext is outside (uppercase), the secrettext is inside. You always see the key below the plain text "A". If you turn on the inner disc, the key changes.
 
-Basteltipp: So kannst du selbst eine Caesar-Scheibe basteln: Drucke unter [Druckvorlagen] das Dokument [Caesar-scheibe] aus. Klebe das Blatt auf ein Stück Pappe und schneide die beiden Scheiben dann sorgfältig aus. Lege die beiden Scheiben auf einen Korken und befestige sie mit einer Reißzwecke in ihrem Mittelpunkt. Fertig ist die Caesar-Scheibe!
+Basteltipp: So you can tinker yourself a Caesar-Scheibe: Prints under [print] the document [Caesar-disk] out. Glue the sheet to a piece of cardboard and then carefully cut the two slices. Lay the two slices on a cork and fasten them with a tear in their center. The Caesar disc is finished!
 
-Nach der ganzen Bastelei wird es Zeit zu klären, wie jetzt der kryptographische Algorithmus der Caesar-Verschlüsselung funktioniert. Als erstes müssen wir wie gewohnt mit der Alphabet-Index Codierung unsere Buchstaben in Zahlen umwandeln (A=0, B=1, etc). Mal sehen wie jetzt eine Zuordnung mit den Schlüssel D (= 5):
+After the whole tinkering, it will be time to clarify how the cryptographic algorithm of Caesar encryption now works. As a first step, we have to convert our letters into numbers (A = 0, B = 1, etc) using alphabet index coding. Let's see how now an assignment with the key D (= 5):
 
-Fällt dir eine Regelmäßigkeit auf? Genau! Es wird immer eine 5 dazuaddieren! Warum gerade 5? Weil 5 (= D) genau unserem Schlüssel entspricht. Einzige Ausnahme bilden die hohen Zahlen, bei ihnen wird eine Regel angewendet, die Modulo genannt wird. Unter MATHEMATIK kannst du mehr darüber erfahren. Umgekehrt muss man dann zum Entschlüsseln einfach den Schlüssel wieder subtrahieren.
+Do you notice a regularity? I agree! There will always be a 5 add! Why just 5? Because 5 (= D) exactly corresponds to our key. The only exception are the high numbers, with a rule called modulo. Under MATHEMATICS you can learn more about it. Conversely, you simply have to subtract the key again to decrypt.
 
-MERKE:
-Bei der Caesar-Verschlüsselung, die man auch Verschiebechiffre nennt, wird jedes Klartextzeichen m durch ein um K im Alphabet verschobenes Zeichen c ersetzt. Nummeriert man alle Zeichen nach ihrer Stelle im Alphabet mit der Länge n, so gilt:
-Ek(m) = (m+k) mod n = c
+NB:
+In the case of the Caesar encryption, which is also referred to as the shift cipher, each plain text character m is replaced by a character c, shifted by K in the alphabet. If all the characters are numbered according to their place in the alphabet with the length n,
+Ek (m) = (m + k) mod n = c
