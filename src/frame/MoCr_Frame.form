@@ -136,6 +136,7 @@
                               <Component id="MoCr_MPstaticIO_ScrollerIn" alignment="0" max="32767" attributes="0"/>
                               <Component id="MoCr_MPstaticIO_Heading" alignment="0" max="32767" attributes="0"/>
                               <Component id="MoCr_MPstaticIO_ScrollerOut" alignment="1" max="32767" attributes="0"/>
+
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                       </Group>
@@ -320,6 +321,9 @@
                         </Property>
                         <Property name="horizontalAlignment" type="int" value="0"/>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MoCr_Caesar_EingabefeldSchl&#xfc;sselActionPerformed"/>
+                      </Events>
                       <AuxValues>
                         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                       </AuxValues>

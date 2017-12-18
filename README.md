@@ -1,9 +1,11 @@
+
 <a href="https://codebeat.co/projects/github-com-heptocat-monkeycrypt-master"><img alt="codebeat badge" src="https://codebeat.co/badges/3c3db0c2-0ec6-4298-93cb-8702dfba2942" /></a>
-<img src="https://github.com/PSeminarKryptographie/MonkeyCrypt/blob/master/src/img/graphics/Schriftzug-Bild.png" width="400" height="200" />
+
 # MonkeyCrypt
-This modest Java Application aims to teach children the basics of (classical) cryptography, try out different encryption types and practice their skills. It was started by a Project-Seminar group of five German students, and is still a work in progress.
+
+This modest Java Application aims to teach children the basics of (classical) cryptography, try out different encryption types and practice their skills. It was started by a Project-Seminar group of five German students, and is still a work in progress. For more information visit our [website](https://MonkeyCrypt.jimdo.com "MonkeyCrypt Website")
 ### How can I download MonkeyCrypt?
-You can either clone and then compile this repository (Main class: Run.java)yourself and be completely up-to-date with the newest version of MonkeyCrypt. 
+You can either [download a .jar](https://github.com/PSeminarKryptographie/MonkeyCrypt/releases "MonkeyCrypt's latest release") you can then simply doubleclick on to run, or you can clone and then compile this repository (Main class: Run.java) yourself and be completely up-to-date with the newest version of MonkeyCrypt.
 Like with all java programs there are multiple ways to compile this repository.
 
 1.  The best way is to have <a href="https://ant.apache.org/manual/running.html">ant</a> installed. Then you can just go in the directory Monkeycrypt and type
@@ -19,7 +21,7 @@ to run it right away.
 2. Manually compile. We still have the issue that texts aren't read into the program if you compile normally, so this is not recommended. However this works without having to aditionally install anything.
 
 > ~/<your_path>/MonkeyCrypt/src/$ **javac Run.java**
-
+>
 > ~/<your_path>/MonkeyCrypt/src/$ **java Run**
 
 3. Through an IDE. If you have an IDE like eclipse or NetBeans, you can import the src - file and run it over the IDE. The class you need to run is Run.java

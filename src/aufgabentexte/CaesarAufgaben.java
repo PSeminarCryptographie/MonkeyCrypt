@@ -119,5 +119,6 @@ public class CaesarAufgaben extends Aufgaben{
         anweisungstext[19] = "Und natürlich auch an Caesars Verschlüsselung";
         schlüssel[19] = "m";
         aufgabentyp[19] = 3;
+
     }
 }

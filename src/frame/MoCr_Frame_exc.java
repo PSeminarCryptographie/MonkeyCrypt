@@ -292,6 +292,7 @@ public class MoCr_Frame_exc extends javax.swing.JFrame {
         MoCr_exc_Default_überschriftenfenster = new javax.swing.JLabel();
         MoCr_exc_Hilfe = new javax.swing.JButton();
 
+
         setResizable(false);
         setType(java.awt.Window.Type.UTILITY);
 
@@ -641,7 +642,6 @@ public class MoCr_Frame_exc extends javax.swing.JFrame {
         );
 
         MoCr_exc_überschrift.add(MoCr_exc_überschrift_Affine, "card10");
-
         MoCr_exc_Default_überschriftenfenster.setFont(new java.awt.Font("Constantia", 1, 24)); // NOI18N
         MoCr_exc_Default_überschriftenfenster.setText("Für diese Verschlüsselung existiert kein Übungsfenster");
 
