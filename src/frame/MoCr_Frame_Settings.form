@@ -37,6 +37,7 @@
               <Component id="MoCr_SettingsFrame_TabbedPane" max="32767" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Component id="MoCr_SettingsFrame_Validation" min="-2" max="-2" attributes="0"/>
+
           </Group>
       </Group>
     </DimensionLayout>
@@ -94,6 +95,7 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="MoCr_SettingsFrame_ResetButton" min="-2" max="-2" attributes="0"/>
                       <EmptySpace pref="81" max="32767" attributes="0"/>
+
                   </Group>
               </Group>
             </DimensionLayout>
@@ -189,11 +191,13 @@
                           <Component id="MoCr_Settings_Lang" pref="21" max="32767" attributes="0"/>
                           <Component id="MoCr_Settings_LangLabel" max="32767" attributes="0"/>
                       </Group>
+
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Component id="MoCr_SettingsFrame_TipCheck" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Component id="MoCr_SettingsFrame_Checkbox" min="-2" max="-2" attributes="0"/>
                       <EmptySpace pref="61" max="32767" attributes="0"/>
+
                   </Group>
               </Group>
             </DimensionLayout>
@@ -286,6 +290,7 @@
                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
               </AuxValues>
             </Component>
+
             <Component class="javax.swing.JComboBox" name="MoCr_Settings_Lang">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">

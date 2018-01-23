@@ -11,6 +11,7 @@ import alcollectors.MoCr_SettingsAL;
  */
 public class MoCr_Frame_Settings extends javax.swing.JFrame {
    
+
     public MoCr_SettingsAL myAL;
     String IOFont;
     String CFont;
@@ -72,6 +73,7 @@ public class MoCr_Frame_Settings extends javax.swing.JFrame {
         MoCr_Settings_Lang = new javax.swing.JComboBox<>();
         MoCr_Settings_LangLabel = new javax.swing.JLabel();
 
+
         setTitle("Einstellungen");
         setResizable(false);
         setType(java.awt.Window.Type.UTILITY);
@@ -112,6 +114,7 @@ public class MoCr_Frame_Settings extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(MoCr_SettingsFrame_ResetButton)
                 .addContainerGap(81, Short.MAX_VALUE))
+
         );
 
         MoCr_SettingsFrame_TabbedPane.addTab("Verschlüsselung", MoCr_SettingsFrame_CryptoSub);
@@ -146,6 +149,7 @@ public class MoCr_Frame_Settings extends javax.swing.JFrame {
         MoCr_Settings_LangLabel.setFont(new java.awt.Font(CFont, 1, 12));
         MoCr_Settings_LangLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         MoCr_Settings_LangLabel.setText("Sprache");
+
 
         javax.swing.GroupLayout MoCr_SettingsFrame_DesignSubLayout = new javax.swing.GroupLayout(MoCr_SettingsFrame_DesignSub);
         MoCr_SettingsFrame_DesignSub.setLayout(MoCr_SettingsFrame_DesignSubLayout);
@@ -193,6 +197,7 @@ public class MoCr_Frame_Settings extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(MoCr_SettingsFrame_Checkbox)
                 .addContainerGap(61, Short.MAX_VALUE))
+
         );
 
         MoCr_SettingsFrame_TabbedPane.addTab("Darstellung", MoCr_SettingsFrame_DesignSub);
@@ -210,6 +215,7 @@ public class MoCr_Frame_Settings extends javax.swing.JFrame {
                 .addComponent(MoCr_SettingsFrame_TabbedPane)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(MoCr_SettingsFrame_Validation))
+
         );
 
         pack();
