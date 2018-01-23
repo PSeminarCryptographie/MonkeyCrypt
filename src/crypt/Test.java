@@ -8,11 +8,11 @@ package crypt;
  *
  */
 public class Test {
-	private static Alphabet myAlphabet;
+	private static Options myAlphabet;
 	public static Affine a = new Affine();
 	
 	public static void main(String [ ] args){	
-		myAlphabet = Alphabet.getInstance();
+		myAlphabet = Options.getInstance();
 		
 		String text = "something";
 		
