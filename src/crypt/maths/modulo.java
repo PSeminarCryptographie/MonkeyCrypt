@@ -10,7 +10,7 @@ public class Modulo {
 			d_int = Integer.parseInt(d_str);
 			n_int = Integer.parseInt(n_str);
 		} catch (NumberFormatException e) {
-			System.out.println("Not a valid number.");
+			//System.out.println("Not a valid number.");
 			return "";
 		}
 
