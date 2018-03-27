@@ -34,20 +34,20 @@ public class TranslationModule {
         localFrame.MoCr_Gen_Choicemenu2.setText(Translator.getInstance().getString("credits"));
         localFrame.MoCr_MPstaticIO_InField.setText(Translator.getInstance().getString("input"));
         localFrame.MoCr_MPstaticIO_OutField.setText(Translator.getInstance().getString("output"));
-        localFrame.MoCr_CaesarSub_LabelSchlüssel.setText(Translator.getInstance().getString("key"));
+        localFrame.MoCr_CaesarSub_LabelSchluessel.setText(Translator.getInstance().getString("key"));
         localFrame.MoCr_MPButtonpanel_LearnButton.setText(Translator.getInstance().getString("learn"));
         localFrame.MoCr_MPButtonpanel_ExerciseButton.setText(Translator.getInstance().getString("exercise"));
         localFrame.MoCr_MPButtonpanel_IOChange.setText(Translator.getInstance().getString("invert"));
         localFrame.MoCr_MPButtonpanel_Help.setText(Translator.getInstance().getString("help"));
         localFrame.MoCr_MultiplikaitvSub_KeyPointer.setText(Translator.getInstance().getString("key"));
         localFrame.MoCr_MultiplikaitvSub_KeyGenButton.setText(Translator.getInstance().getString("generateKey"));
-        localFrame.MoCr_VigenereSub_LabelSchlüssel.setText(Translator.getInstance().getString("key"));
-        localFrame.MoCr_OTPSub_LabelSchlüssel.setText(Translator.getInstance().getString("key"));
+        localFrame.MoCr_VigenereSub_LabelSchluessel.setText(Translator.getInstance().getString("key"));
+        localFrame.MoCr_OTPSub_LabelSchluessel.setText(Translator.getInstance().getString("key"));
         localFrame.MoCr_OTPSub_Generator.setText(Translator.getInstance().getString("generateKey"));
         localFrame.MoCr_TranspositionSub_SpaltelButton.setText(Translator.getInstance().getString("trans1"));
         localFrame.MoCr_TranspositionSub_GartenzaunButton.setText(Translator.getInstance().getString("trans2"));
         localFrame.MoCr_TranspositionSub_AnagrammButton.setText(Translator.getInstance().getString("trans3"));
-        localFrame.MoCr_TranspositionSub_DoppelwürfelButton.setText(Translator.getInstance().getString("trans4"));
+        localFrame.MoCr_TranspositionSub_DoppelwuerfelButton.setText(Translator.getInstance().getString("trans4"));
         localFrame.MoCr_TranspositionSub_PermutaButton.setText(Translator.getInstance().getString("trans5"));
         localFrame.MoCr_TranspositionKey_1KeyLabel.setText(Translator.getInstance().getString("key"));
         localFrame.MoCr_TranspositionSub_2KeyLabel.setText(Translator.getInstance().getString("keys"));
@@ -55,7 +55,7 @@ public class TranslationModule {
         localFrame.MoCr_PermSub_Label.setText(Translator.getInstance().getString("matrixsize"));
         localFrame.MoCr_CodierungenSub_MorseButton.setText(Translator.getInstance().getString("code1"));
         localFrame.MoCr_CodierungenSub_ASCIIButton.setText(Translator.getInstance().getString("code2"));
-        localFrame.MoCr_CodierungenSub_BinärButton.setText(Translator.getInstance().getString("code3"));
+        localFrame.MoCr_CodierungenSub_BinaerButton.setText(Translator.getInstance().getString("code3"));
         localFrame.MoCr_CodierungenSub_BinToHexButton.setText(Translator.getInstance().getString("code4"));
         localFrame.MoCr_CodierungenSub_AlphaButton.setText(Translator.getInstance().getString("code5"));
         localFrame.MoCr_CodierungenSub_NATOButton.setText(Translator.getInstance().getString("code6"));
@@ -63,7 +63,7 @@ public class TranslationModule {
         localFrame.MoCr_CodierungenSub_ADFGXFiller.setText(Translator.getInstance().getString("fill"));
         localFrame.MoCr_SpielsprachenMP_BiButton.setText(Translator.getInstance().getString("fun1"));
         localFrame.MoCr_SpielsprachenMP_BobButton.setText(Translator.getInstance().getString("fun2"));
-        localFrame.MoCr_SpielsprachenMP_LöffelButton.setText(Translator.getInstance().getString("fun3"));
+        localFrame.MoCr_SpielsprachenMP_LoeffelButton.setText(Translator.getInstance().getString("fun3"));
         localFrame.MoCr_HillSub_SizeLab.setText(Translator.getInstance().getString("matrixsize"));
         localFrame.MoCr_SteganoSub_BaconButton.setText(Translator.getInstance().getString("stegano1"));
         localFrame.MoCr_SteganoSub_PseudoButton.setText(Translator.getInstance().getString("stegano2"));
@@ -75,7 +75,7 @@ public class TranslationModule {
     }
     
     public void renewListM() {
-        DefaultListModel lm = new DefaultListModel();
+        DefaultListModel<String> lm = new DefaultListModel<String>();
         lm.add(0, Translator.getInstance().getString("caesar"));
         lm.add(1, Translator.getInstance().getString("multi"));
         lm.add(2, Translator.getInstance().getString("vigenere"));
@@ -91,7 +91,7 @@ public class TranslationModule {
     }
     
     public void renewListD() {
-        DefaultListModel lm = new DefaultListModel();
+        DefaultListModel<String> lm = new DefaultListModel<String>();
         lm.add(0, Translator.getInstance().getString("maths"));
         lm.add(1, Translator.getInstance().getString("steganography"));
         lm.add(2, Translator.getInstance().getString("fun"));
@@ -131,7 +131,7 @@ public class TranslationModule {
         ls.MoCr_Settings_LangLabel.setText(Translator.getInstance().getString("lang"));
         ls.MoCr_SettingsFrame_TipCheck.setText(Translator.getInstance().getString("tip"));
         ls.MoCr_SettingsFrame_Checkbox.setText(Translator.getInstance().getString("resize"));
-        DefaultComboBoxModel bm1 = new DefaultComboBoxModel();
+        DefaultComboBoxModel<String> bm1 = new DefaultComboBoxModel<String>();
         bm1.addElement(Translator.getInstance().getString("blue"));
         bm1.addElement(Translator.getInstance().getString("green"));
         bm1.addElement(Translator.getInstance().getString("yellow"));
@@ -139,7 +139,7 @@ public class TranslationModule {
         int index = ls.MoCr_SettingsFrame_Colourbox.getSelectedIndex();
         ls.MoCr_SettingsFrame_Colourbox.setModel(bm1);
         ls.MoCr_SettingsFrame_Colourbox.setSelectedIndex(index);
-        DefaultComboBoxModel bm2 = new DefaultComboBoxModel();
+        DefaultComboBoxModel<String> bm2 = new DefaultComboBoxModel<String>();
         bm2.addElement(Translator.getInstance().getString("empty1"));
         bm2.addElement(Translator.getInstance().getString("empty2"));
         bm2.addElement(Translator.getInstance().getString("empty3"));
@@ -147,7 +147,7 @@ public class TranslationModule {
         bm2.addElement(Translator.getInstance().getString("empty5"));
         ls.MoCr_SettingsFrame_ClearBox.setModel(bm2);
         ls.AlphOnlyCheckbox.setText(Translator.getInstance().getString("alphonly"));
-        DefaultComboBoxModel bm3 = new DefaultComboBoxModel();
+        DefaultComboBoxModel<String> bm3 = new DefaultComboBoxModel<String>();
         bm3.addElement(Translator.getInstance().getString("script1"));
         bm3.addElement(Translator.getInstance().getString("script2"));
         bm3.addElement(Translator.getInstance().getString("script3"));
