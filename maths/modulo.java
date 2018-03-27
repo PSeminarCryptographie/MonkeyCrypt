@@ -1,7 +1,7 @@
 // package crypt.maths;
 import java.util.*;
 
-public class modulo {
+public class Modulo {
 	public static String calculate(String n_str, String d_str) {
 		int n_int;
 		int d_int;
