@@ -37,7 +37,7 @@ public class Haeufigkeitsanalyse {
 		
 		return dict;
 	}
-	
+
 	public LinkedHashMap<String, Integer> rawAnalyse(String text){
 		LinkedHashMap<String, Integer> map = makeMap(text);
 		map = alphaonly(map);
