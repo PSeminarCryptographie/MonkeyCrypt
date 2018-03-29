@@ -18,9 +18,6 @@ import javax.swing.JPanel;
 import crypt.Options;
 
 public class DrawGraph extends JPanel {
-    /**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 	private int padding = 25;
     private int labelPadding = 25;
